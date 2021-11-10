@@ -4,31 +4,19 @@ class QuizBrain {
   int _questionNumber = 0;
 
   List<Question> _questionBank = [
-    Question('Some cats are actually allergic to humans', true),
-    Question('You can lead a cow down stairs but not up stairs.', false),
-    Question('Approximately one quarter of human bones are in the feet.', true),
-    Question('A slug\'s blood is green.', true),
-    Question('Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', true),
-    Question('It is illegal to pee in the Ocean in Portugal.', true),
-    Question(
-        'No piece of square dry paper can be folded in half more than 7 times.',
-        false),
-    Question(
-        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
-        true),
-    Question(
-        'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
-        false),
-    Question(
-        'The total surface area of two human lungs is approximately 70 square metres.',
-        true),
-    Question('Google was originally called \"Backrub\".', true),
-    Question(
-        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
-        true),
-    Question(
-        'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
-        true),
+    Question('유주는 이쁘다', true),
+    Question('유주는 아이폰을 쓴다. ', true),
+    Question('유주는 맥을 쓴다.', true),
+    Question('유주는 코딩을 좋아한다.', true),
+    Question('유주는 고등학교때 공부를 못했다.', true),
+    Question('유주는 영화를 좋아한다.', true),
+    Question('유주의 MBTI는 INFP이다.', false),
+    Question('유주는 얼떨결에 스타트업을 시작했다.', true),
+    Question('유주는 불확실한걸 좋아한다', false),
+    Question('유주는 확실히 성공할것에만 도전한다.', true),
+    Question('유주는 뭐든지 확실해야 한다', true),
+    Question('유주는 무언가 확실하지 않은 사람들과의 갈등도 많이 있다.', true),
+    Question('그러나 유주는 좋은 사람이다.', true),
   ];
 
   void nextQuestion() {
@@ -53,7 +41,6 @@ class QuizBrain {
 
       print('Now returning true');
       return true;
-
     } else {
       return false;
     }
